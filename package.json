@@ -1,0 +1,19 @@
+{
+  "name": "backendusermanagement",
+  "version": "1.0.0",
+  "description": "A backend app using node and express js where user can able to register and login itself !",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"npx nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Ravi Prakash Prajapati",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.3.2"
+  }
+}
